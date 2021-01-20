@@ -1,0 +1,114 @@
+/* Flex */
+.grid {
+  display: grid;
+}
+
+.g-center {
+  place-items: center;
+}
+
+/* Flex */
+.flex {
+  display: flex;
+}
+
+/* Utils */
+.vh-100 {
+  height: 100vh;
+}
+
+.w-100 {
+  width: -webkit-fill-available;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* Grid columns */
+.c-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.c-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.c-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.c-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.c-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+
+/* Margin */
+.gmx-2,
+.gmx-5,
+.gmx-10 {
+}
+
+.gmx-2 > * {
+  margin: 0 2px;
+}
+
+.gmx-5 > * {
+  margin: 0 5px;
+}
+
+.gmx-10 > * {
+  margin: 0 10px;
+}
+
+.gmx-2 > :first-child,
+.gmx-5 > :first-child,
+.gmx-10 > :first-child {
+  margin-left: 0;
+}
+
+.gmx-2 > :last-child,
+.gmx-5 > :last-child,
+.gmx-10 > :last-child {
+  margin-right: 0;
+}
+
+.gmy-2,
+.gmy-5,
+.gmy-10,
+.gmy-25 {
+}
+
+.gmy-2 > * {
+  margin: 5px 0;
+}
+
+.gmy-5 > * {
+  margin: 5px 0;
+}
+
+.gmy-10 > * {
+  margin: 10px 0;
+}
+
+.gmy-25 > * {
+  margin: 25px 0;
+}
+
+.gmy-2 > :first-child,
+.gmy-5 > :first-child,
+.gmy-10 > :first-child,
+.gmy-25 > :first-child {
+  margin-top: 0;
+}
+
+.gmy-2 > :last-child,
+.gmy-5 > :last-child,
+.gmy-10 > :last-child,
+.gmy-25 > :last-child {
+  margin-bottom: 0;
+}
