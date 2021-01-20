@@ -6,7 +6,7 @@ const Banner = () => {
         <div className="grid g-center gmx-5 banner w-100" style={{ backgroundImage: "url('/bannerBackground.png')" }} >
             <div className="flex g-center gmx-10">
                 <Versus position="right" type="killer" />
-                <div>VS</div>
+                <div className="red" style={{ fontSize: "30px" }}>⚔</div>
                 <Versus position="left" type="victim" />
             </div>
         </div>
