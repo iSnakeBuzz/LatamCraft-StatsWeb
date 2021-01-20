@@ -17,7 +17,6 @@ function MyApp({ Component, pageProps }) {
         <title>Estadísticas - LatamCraft</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
         <meta name="theme-color" content="#e67e22" />
-        <meta name="description" content="En este sitio encontrarás las estadísticas más recientes de LatamCraft." />
 
         <link name="shortcut icon" href="https://cdn.latamcraft.es/128x128.png" />
 
@@ -29,8 +28,6 @@ function MyApp({ Component, pageProps }) {
 
         <meta property="og:image" content="https://cdn.latamcraft.es/512x512.png" />
         <meta property="og:image:alt" content="Logo" />
-
-        <meta property="og:description" content="En este sitio encontrarás las estadísticas más recientes de LatamCraft." />
 
         <meta property="og:locale" content="en_US" />
       </Head>
