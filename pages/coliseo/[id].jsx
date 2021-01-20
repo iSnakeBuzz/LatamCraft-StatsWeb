@@ -7,6 +7,7 @@ import Player from '../../modules/Player';
 import Router from 'next/router';
 import Game from '../../modules/Game';
 import useResize from '../../modules/useResize'
+import Head from 'next/head';
 
 const index = ({ data }) => {
 
@@ -27,6 +28,11 @@ const index = ({ data }) => {
     return (
         <UsersContext.Provider value={data}>
             <Layout>
+                <Head>
+                    <meta name="description" content={`${data.data.killer.playerName} ha ganado la batalla con un combo de ${data.data.killer.combo}`} />
+                    <meta property="og:description" content={`${data.data.killer.playerName} ha ganado la batalla con un combo de ${data.data.killer.combo}`} />
+                </Head>
+
                 <div className='grid g-center gmy-25'>
                     <Banner />
                     <Game />
